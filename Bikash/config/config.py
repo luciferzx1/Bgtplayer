@@ -9,10 +9,10 @@ from pyrogram import filters
 if os.path.exists("Internal"):
   load_dotenv("Internal")
 
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
-BOT_ID = int(getenv("BOT_ID", "7198638721"))
-BOT_TOKEN = getenv("BOT_TOKEN")
+API_ID = int(getenv("API_ID"20370169))
+API_HASH = getenv("API_HASH"1ef8ae4a82517cc276d317b9ad0a6a6c)
+BOT_ID = int(getenv("BOT_ID", "7502892485"))
+BOT_TOKEN = getenv("BOT_TOKEN":AAH0yk2SLeqaMDR7fjRkdYNvTYGi6Kk-ldg)
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
